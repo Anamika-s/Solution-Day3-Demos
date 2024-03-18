@@ -11,6 +11,13 @@
             if (flag == true)
                 Console.WriteLine("Element found");
             else Console.WriteLine("ELement Not Found");
+
+            int index = PerformLinearSearch(num, numToSearch);
+            if (index == -1) Console.WriteLine("ELement Not Found");
+            else Console.WriteLine($"Element found at {index} position");
+             
+
+
         }
 
         static bool LinearSearch(int[] num, int numToSearch)
@@ -25,6 +32,22 @@
                 }
             }
             return flag;
+        }
+
+
+
+        static int PerformLinearSearch(int[] num, int numToSearch)
+        {
+            int index=-1;
+            for(int i = 0;i<num.Length; i++)
+            {
+                if (num[i] == numToSearch)
+                {
+                    index = i;
+                    break;
+                }
+            }
+            return index;
         }
     }
 }
