@@ -15,12 +15,13 @@ namespace CollectionsDemo
             list.Add(4);
             list.Add("ajay");
             list.Add(90.8f);
+
             //for(int i = 0;i<list.Count;i++)
             //{
             //    Console.WriteLine(list[i]);
             //}
 
-            foreach (int temp in list)
+            foreach (var temp in list)
                 Console.WriteLine(temp);
             list.Insert(1, 100);
             Console.WriteLine("After inserting 100 at post 1");

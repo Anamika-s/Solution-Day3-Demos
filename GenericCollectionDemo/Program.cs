@@ -5,8 +5,16 @@ namespace GenericCollectionDemo
 {
     internal class Program
     {
+         static int x = 100;
+        static void Change()
+        {
+            x = 100;
+        }
         static void Main(string[] args)
         {
+            //Here x is local variable
+              x = 10;
+
               // ArrayList is replaced with List
               List<int> list = new List<int>();
             list.Add(1);

@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JaggedArrayDemo", "JaggedAr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CollectionsDemo", "CollectionsDemo\CollectionsDemo.csproj", "{18B54DA1-B100-4C61-B6BD-DA458AF74D60}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericCollectionDemo", "GenericCollectionDemo\GenericCollectionDemo.csproj", "{66DBA084-9E35-4B1A-A4D3-DF6BDBB950DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MethodsDemos", "MethodsDemos\MethodsDemos.csproj", "{9938A2E6-5E81-4328-ACBA-709C3BCF75F4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{18B54DA1-B100-4C61-B6BD-DA458AF74D60}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{18B54DA1-B100-4C61-B6BD-DA458AF74D60}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{18B54DA1-B100-4C61-B6BD-DA458AF74D60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66DBA084-9E35-4B1A-A4D3-DF6BDBB950DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66DBA084-9E35-4B1A-A4D3-DF6BDBB950DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66DBA084-9E35-4B1A-A4D3-DF6BDBB950DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66DBA084-9E35-4B1A-A4D3-DF6BDBB950DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9938A2E6-5E81-4328-ACBA-709C3BCF75F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9938A2E6-5E81-4328-ACBA-709C3BCF75F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9938A2E6-5E81-4328-ACBA-709C3BCF75F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9938A2E6-5E81-4328-ACBA-709C3BCF75F4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
